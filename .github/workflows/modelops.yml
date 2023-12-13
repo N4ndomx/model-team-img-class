@@ -19,7 +19,7 @@ jobs:
     - name: install unzip 
       run: sudo apt-get install unzip
     - name: Download model
-      run: wget -O team-model.zip https://firebasestorage.googleapis.com/v0/b/ia-img-classification.appspot.com/o/modelteam.zip?alt=media&token=011f6bd5-4831-4ff5-bd7c-42a31cb60479
+      run: wget -O team-model.zip https://firebasestorage.googleapis.com/v0/b/ia-img-classification.appspot.com/o/modelteam.zip?alt=media&token=13778b88-96fe-493f-9ca7-25d6e670d56f
     - name: extract model
       run: unzip team-model.zip
     - name: show dir
